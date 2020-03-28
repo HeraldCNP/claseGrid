@@ -64,19 +64,58 @@ body {
 
 .widget-1 {
     grid-area: widget-1;
+    display: flex;
+    align-items: flex-start;
 }
 }
 
 .widget-2 {
     grid-area: widget-2;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .widget-3 {
     grid-area: widget-3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .widget-4 {
     grid-area: widget-4;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex1{
+
+    color: black;
+    flex: 15%;
+}
+
+.flex2{
+
+    color: black;
+    flex: 15%;
+}
+
+.flex3{
+
+    color: black;
+    flex: 20%;
+}
+
+.flex4{
+   
+    color: black;
+    flex: 30%;
 }
 
 .footer {
